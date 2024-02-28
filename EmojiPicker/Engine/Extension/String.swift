@@ -6,6 +6,8 @@
 //  Copyright © 2018 levantAJ. All rights reserved.
 //
 
+import Foundation
+
 extension String {
     var localized: String {
         let language = UserDefaults.standard.string(forKey: Constant.CurrentLanguage.currentLanguageKey)
